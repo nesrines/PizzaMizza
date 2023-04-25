@@ -31,16 +31,16 @@ namespace PizzaMizza.App.Services.Implementations
                 int.TryParse(Console.ReadLine().Trim(), out SizeIndex);
 
             }
-
+            double IngredientsPrice = 0;
             PizzaSize Size = (PizzaSize)SizeIndex;
-
-            Console.WriteLine("Add price");
             double Price;
-            while (Price == 0)
-            {
-                double.TryParse(Console.ReadLine().Trim(), out Price);
-                pizzaRepository.CreateAsync(new Pizza(Name, Size, Price));
-            }
+            if (Size == (PizzaSize)1)
+            { Price = IngredientsPrice * 0.75; }
+            else if(Size == (PizzaSize)2)
+            { Price = IngredientsPrice; }
+            else { Price = IngredientsPrice * 1.25; }
+            
+            pizzaRepository.CreateAsync(new Pizza(Name, "", Size, Price));
         }
         public async Task Update()
         {
