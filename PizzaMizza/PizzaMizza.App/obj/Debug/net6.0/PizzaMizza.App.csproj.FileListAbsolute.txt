@@ -1,0 +1,5 @@
+C:\Users\nasrinfa\source\repos\PizzaMizza\PizzaMizza.App\obj\Debug\net6.0\PizzaMizza.App.csproj.AssemblyReference.cache
+C:\Users\nasrinfa\source\repos\PizzaMizza\PizzaMizza.App\obj\Debug\net6.0\PizzaMizza.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nasrinfa\source\repos\PizzaMizza\PizzaMizza.App\obj\Debug\net6.0\PizzaMizza.App.AssemblyInfoInputs.cache
+C:\Users\nasrinfa\source\repos\PizzaMizza\PizzaMizza.App\obj\Debug\net6.0\PizzaMizza.App.AssemblyInfo.cs
+C:\Users\nasrinfa\source\repos\PizzaMizza\PizzaMizza.App\obj\Debug\net6.0\PizzaMizza.App.csproj.CoreCompileInputs.cache
